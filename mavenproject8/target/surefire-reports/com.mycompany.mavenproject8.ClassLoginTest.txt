@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.mavenproject8.ClassLoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.068 s <<< FAILURE! -- in com.mycompany.mavenproject8.ClassLoginTest
+com.mycompany.mavenproject8.ClassLoginTest.testLoginUser -- Time elapsed: 0.035 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "this.Username" is null
+	at com.mycompany.mavenproject8.ClassLogin.loginUser(ClassLogin.java:87)
+	at com.mycompany.mavenproject8.ClassLoginTest.testLoginUser(ClassLoginTest.java:205)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
